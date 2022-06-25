@@ -1,6 +1,6 @@
 use serde::{Serialize, Deserialize};
 
-mod guild;
+pub mod guild;
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub enum Root {
