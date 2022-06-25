@@ -1,2 +1,5 @@
 [workspace]
-members = ["commander-ws-model"]
+members = [
+    "commander-ws",
+    "commander-ws-model",
+]
