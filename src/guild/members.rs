@@ -1,5 +1,7 @@
+use serde::{Serialize, Deserialize};
 use serenity::model::guild::Member;
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Event {
     /// A member joined the guild
     Addition(Member),

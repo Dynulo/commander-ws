@@ -26,6 +26,7 @@ pub enum Authenticated {
 
 }
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Event {
     Guild(guild::Event),
 }
