@@ -1,5 +1,8 @@
-[workspace]
-members = [
-    "commander-ws",
-    "commander-ws-model",
-]
+[package]
+name = "commander-ws-model"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serenity = { git = "https://github.com/serenity-rs/serenity", rev = "1ef65f251b981674233b8f6d7edeefe9b92d7329", default-features = false, features = ["builder"]  }
