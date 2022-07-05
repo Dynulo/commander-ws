@@ -1,4 +1,4 @@
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 use serenity::model::guild::Member;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

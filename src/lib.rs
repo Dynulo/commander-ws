@@ -1,4 +1,4 @@
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 pub mod guild;
 
@@ -22,9 +22,7 @@ pub enum LoginResponse {
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub enum Authenticated {
-
-}
+pub enum Authenticated {}
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Event {
