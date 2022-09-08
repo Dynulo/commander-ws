@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
-serenity = { git = "https://github.com/serenity-rs/serenity", rev = "ab406c1d6dba55965dfc614d78e77f142f892878", default-features = false, features = ["builder"]  }
+serenity = { git = "https://github.com/serenity-rs/serenity", rev = "b5314fefbe45fdc5e736400be23513d460b10559", default-features = false, features = ["builder"]  }
